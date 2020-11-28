@@ -1,4 +1,4 @@
-require_relative './kickstarter.html'
+require_relative '../kickstarter.html'
 require 'nokogiri'
 
 html = File.read('fixtures/kickstarter.html')
