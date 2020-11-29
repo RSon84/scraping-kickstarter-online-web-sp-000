@@ -1,5 +1,6 @@
 # require_relative '../kickstarter.html'
 require 'nokogiri'
+require 'pry'
 
 html = File.read('fixtures/kickstarter.html')
 
